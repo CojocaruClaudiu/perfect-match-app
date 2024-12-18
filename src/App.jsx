@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react';
-import imageCatalina from './assets/image.png';
+import imageValentina from './assets/image.png';
 import imageKlau from './assets/image2.png';
 import romanticSong from './assets/romanticSong.mp3';
 import roseImage from './assets/red-rose.png';
@@ -72,10 +72,10 @@ function App() {
 					className={`student-card student-true ${isMoving ? 'moving-reverse' : ''}`}
 					style={{ right: '100px' }}>
 					<img
-						src={imageCatalina}
-						alt='Profile of Catalina'
+						src={imageValentina}
+						alt='Profile of Valentina'
 					/>
-					<h2>Catalina</h2>
+					<h2>Valentina</h2>
 					<p><i>Probably</i> the next most amazing person ever ;)</p>
 					<span className='status'>Jerry</span>
 				</div>
